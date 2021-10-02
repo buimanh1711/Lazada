@@ -1,6 +1,4 @@
-.header__section {
-
-}
+.header__section {}
 
 .header__section-menu {
   background: var(--my-background-color);
@@ -23,21 +21,23 @@ li.menu__list-item {
   cursor: pointer;
 }
 
-li.menu__list-item a,
-li.menu__list-item span {
+li.menu__list-item:last-child {
+  padding-right: 2px;
+}
+
+
+li.menu__list-item a, li.menu__list-item span {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--my-text-color2);
   font-size: 12px;
 }
 
-li.menu__list-item.high-light a,
-li.menu__list-item.high-light span {
+li.menu__list-item.high-light a, li.menu__list-item.high-light span {
   color: var(--my-blue1)
 }
 
-li.menu__list-item:hover a,
-li.menu__list-item:hover span {
+li.menu__list-item:hover a, li.menu__list-item:hover span {
   color: var(--my-orange);
   font-weight: 600;
   opacity: .8;
@@ -56,8 +56,89 @@ li.menu__list-item.has-popup .download__popup {
   top: 27px;
   transform: translateX(-50%);
   left: 50%;
-} 
+}
 
 li.menu__list-item.has-popup:hover .download__popup {
   display: block;
+}
+
+/* header content */
+
+.header__section-content {
+  display: flex;
+  justify-content: center;
+}
+
+.header__section-content-container {
+  width: 100%;
+  max-width: 1200px;
+  height: 92px;
+}
+
+.content__align-container {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.header__logo {
+  width: 127px;
+}
+
+.header__logo a {
+  width: 100%;
+}
+
+.header__logo a img {
+  width: 100%;
+}
+
+.header__search__form {
+  margin-left: 70px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.header__search__form-form input {
+  padding: 13px 19px;
+  background: var(--my-background-color);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.header__search__form-form button {
+  height: 42px;
+  width: 45px;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 0px;
+  background: var(--my-orange);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.header__search__form-form button i {
+  font-size: 16px;
+  color: white;
+}
+
+.header__cart {
+  margin-left: 30px;
+}
+
+.header__cart i {
+  font-size: 30px;
+  color: var(--my-blue1)
+}
+
+.header__ads {
+  margin-left: 50px;
+  /* margin-left: auto; */
+}
+
+.header__ads img {
+  width: 188px;
 }
