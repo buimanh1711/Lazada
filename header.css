@@ -1,4 +1,6 @@
-.header__section {}
+.header__section {
+  background: white;
+}
 
 .header__section-menu {
   background: var(--my-background-color);
@@ -52,10 +54,25 @@ li.menu__list-item.has-popup .download__popup {
   position: absolute;
   width: 380px;
   height: 380px;
-  border: 1px solid var(--my-border-color);
+  box-shadow: var(--my-box-shadow);
+  border-radius: 8px;
   top: 27px;
   transform: translateX(-50%);
   left: 50%;
+  z-index: 10;
+  background: white;
+}
+
+li.menu__list-item.has-popup .download__popup::before {
+  content: '';
+  position: absolute;
+  border: 10px solid rgb(255, 255, 255);
+  border-top-color: rgba(255, 255, 255, 0);
+  border-left-color: rgba(255, 255, 255, 0);
+  border-right-color: rgba(255, 255, 255, 0);
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 li.menu__list-item.has-popup:hover .download__popup {

@@ -1,125 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazada</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lazada</title>
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/56e7502c32.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./body.css" />
 
-  <!-- icons -->
-  <script src="https://kit.fontawesome.com/56e7502c32.js" crossorigin="anonymous"></script>
-  <!-- styles -->
-  <link rel="stylesheet" href="./base.css">
-  <link rel="stylesheet" href="./style.css">
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
-  <div id='my-app'>
-    <div class='app-container'>
-      <div class='header__section'>
-        <div class='header__section-menu'>
-          <div class='menu-container'>
-            <ul class='menu__list'>
-              <li class='menu__list-item high-light has-popup'>
-                <span class='item-text'>
-                  Save more on app
-                </span>
-                <div class='download__popup'>
-                  <div class='download__popup-container'>
-                    abcyx
+  <body>
+    <div id="my-app">
+      <div class="app-container">
+        <div class="header__section">
+          <div class="header__section-menu">
+            <div class="menu-container">
+              <ul class="menu__list">
+                <li class="menu__list-item high-light has-popup">
+                  <span class="item-text"> Save more on app </span>
+                  <div class="download__popup">
+                    <div class="download__popup-container">abcyx</div>
                   </div>
+                </li>
+                <li class="menu__list-item high-light">
+                  <a href="/" class="item-text"> Sell on lazada </a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="/" class="item-text"> customer care </a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="/" class="item-text"> track my order </a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="/" class="item-text"> login </a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="/" class="item-text"> sign up </a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="/" class="item-text"> Thay đổi ngôn ngữ </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="header__section-content">
+            <div class="header__section-content-container">
+              <div class="content__align-container">
+                <div class="header__logo">
+                  <a href="/">
+                    <img
+                      class="header__logo-image"
+                      src="./assets/images/header_logo.png"
+                      alt="lazada logo"
+                    />
+                  </a>
                 </div>
 
-              </li>
-              <li class='menu__list-item high-light'>
-                <a href='/' class='item-text'>
-                  Sell on lazada
-                </a>
-              </li>
-              <li class='menu__list-item'>
-                <a href='/' class='item-text'>
-                  customer care
-                </a>
-              </li>
-              <li class='menu__list-item'>
-                <a href='/' class='item-text'>
-                  track my order
-                </a>
-              </li>
-              <li class='menu__list-item'>
-                <a href='/' class='item-text'>
-                  login
-                </a>
-              </li>
-              <li class='menu__list-item'>
-                <a href='/' class='item-text'>
-                  sign up
-                </a>
-              </li>
-              <li class='menu__list-item'>
-                <a href='/' class='item-text'>
-                  Thay đổi ngôn ngữ
-                </a>
-              </li>
-            </ul>
+                <div class="header__search__form">
+                  <form class="header__search__form-form">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+                    <button class="form-submit__btn">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </form>
+                </div>
+
+                <div class="header__cart">
+                  <span class="header__cart-icon__container">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                </div>
+
+                <div class="header__ads">
+                  <img
+                    class="header__ads-image"
+                    src="./assets/images/header__ads.jpg"
+                    alt="sale hot"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class='header__section-content'>
-          <div class='header__section-content-container'>
-            <div class='content__align-container'>
-              <div class='header__logo'>
-                <a href='/'>
-                  <img class='header__logo-image' src='./assets/images/header_logo.png' alt="lazada logo" />
-                </a>
-              </div>
 
-              <div class="header__search__form">
-                <form class='header__search__form-form'>
-                  <input type='text' placeholder="Tìm kiếm sản phẩm..." />
-                  <button class='form-submit__btn'>
-                    <i class="fas fa-search"></i>
-                  </button>
-                </form>
-              </div>
-              
-              <div class='header__cart'>
-                <span class='header__cart-icon__container'>
-                  <i class="fas fa-shopping-cart"></i>
-                </span>
-              </div>
+        <div class="body__section">
+          <div class="body__section-container">
+            <div class="banner__section">
+              <div class="banner__section-container">
+                <div class="left__menu">
+                  <ul class="left__menu__list">
+                    <li class="left__menu__list-item">
+                      <div class="item-content">Sức khỏe & làm đẹp</div>
+                      <ul class="sub__menu">
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                      </ul>
+                    </li>
+                    <li class="left__menu__list-item">
+                      <div class="item-content">Sức khỏe & làm đẹp làm đẹp</div>
+                      <ul class="sub__menu">
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
 
-              <div class='header__ads'>
-                <img class='header__ads-image' src='./assets/images/header__ads.jpg' alt='sale hot'>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                      </ul>
+                    </li>
+                    <li class="left__menu__list-item">
+                      <div class="item-content">Sức khỏe & làm đẹp</div>
+                      <ul class="sub__menu">
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                      </ul>
+                    </li>
+                    <li class="left__menu__list-item">
+                      <div class="item-content">Sức khỏe & làm đẹp làm đẹp</div>
+                      <ul class="sub__menu">
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                        <li class="sub__menu__list-item">
+                          TV & Thiết Bị Điện Gia Dụng
+                        </li>
+                        <li class="sub__menu__list-item">Sức khỏe & làm đẹp</li>
+                        <li class="sub__menu__list-item">Phụ Kiện Điện Tử</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="right__ads">
+                  <a href="/">
+                    <img src="/assets/images/banner.png" />
+                  </a>
+                </div>
               </div>
             </div>
 
+            <div class="flash__sale__section">
+              <div class="flash__sale-container">
+                <h3 class="flash__sale-title">Flash sale</h3>
+
+                <div class="sale__timing">
+                  <span class="sale-title">On sale now</span>
+                  <div class="sale__timing-timer">
+                    <span class="timer-title"> Ending in </span>
+                    <div class="timer-clock">
+                      <span>17</span>
+                      :
+                      <span>11</span>
+                      :
+                      <span>20</span>
+                    </div>
+                  </div>
+                  <button class="show-btn">Show all product</button>
+                </div>
+
+                <div class="sale__product__items-container">
+                  <ul class="sale__product__list">
+                    <li class="sale__product__item">
+                      <a href="/">
+                        <div class="item-container">
+                          <div class="thumbnail__image-container">
+                            <img
+                              src="/assets/images/fake_item_product.png"
+                              alt="ten san pham"
+                            />
+                          </div>
+                          <div class="item-info-container">
+                            <p class="item-name">
+                              Combo 10 bàn trải đánh răng Hàn Quốc
+                            </p>
+                            <p class="item-price">9.000đ</p>
+                            <div title="Deal chợp nhoáng"  class="sale__off-container">
+                              <span class="old__price">
+                                48.000đ
+                              </span>
+                              <span className="sale__off-percent"> -80% </span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="sale__product__item">
+                      <a href="/">
+                        <div class="item-container">
+                          <div class="thumbnail__image-container">
+                            <img
+                              src="/assets/images/fake_item_product.png"
+                              alt="ten san pham"
+                            />
+                          </div>
+                          <div class="item-info-container">
+                            <p class="item-name">
+                              Combo 10 bàn trải đánh răng Hàn Quốc
+                            </p>
+                            <p class="item-price">9.000đ</p>
+                            <div title="Deal chợp nhoáng"  class="sale__off-container">
+                              <span class="old__price">
+                                48.000đ
+                              </span>
+                              <span className="sale__off-percent"> -80% </span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="sale__product__item">
+                      <a href="/">
+                        <div class="item-container">
+                          <div class="thumbnail__image-container">
+                            <img
+                              src="/assets/images/fake_item_product.png"
+                              alt="ten san pham"
+                            />
+                          </div>
+                          <div class="item-info-container">
+                            <p class="item-name">
+                              Combo 10 bàn trải đánh răng Hàn Quốc
+                            </p>
+                            <p class="item-price">9.000đ</p>
+                            <div title="Deal chợp nhoáng"  class="sale__off-container">
+                              <span class="old__price">
+                                48.000đ
+                              </span>
+                              <span className="sale__off-percent"> -80% </span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="sale__product__item">
+                      <a href="/">
+                        <div class="item-container">
+                          <div class="thumbnail__image-container">
+                            <img
+                              src="/assets/images/fake_item_product.png"
+                              alt="ten san pham"
+                            />
+                          </div>
+                          <div class="item-info-container">
+                            <p class="item-name">
+                              Combo 10 bàn trải đánh răng Hàn Quốc
+                            </p>
+                            <p class="item-price">9.000đ</p>
+                            <div title="Deal chợp nhoáng"  class="sale__off-container">
+                              <span class="old__price">
+                                48.000đ
+                              </span>
+                              <span className="sale__off-percent"> -80% </span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="sale__product__item">
+                      <a href="/">
+                        <div class="item-container">
+                          <div class="thumbnail__image-container">
+                            <img
+                              src="/assets/images/fake_item_product.png"
+                              alt="ten san pham"
+                            />
+                          </div>
+                          <div class="item-info-container">
+                            <p class="item-name">
+                              Combo 10 bàn trải đánh răng Hàn Quốc
+                            </p>
+                            <p class="item-price">9.000đ</p>
+                            <div title="Deal chợp nhoáng"  class="sale__off-container">
+                              <span class="old__price">
+                                48.000đ
+                              </span>
+                              <span className="sale__off-percent"> -80% </span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="sale__product__item">
+                      <a href="/">
+                        <div class="item-container">
+                          <div class="thumbnail__image-container">
+                            <img
+                              src="/assets/images/fake_item_product.png"
+                              alt="ten san pham"
+                            />
+                          </div>
+                          <div class="item-info-container">
+                            <p class="item-name">
+                              Combo 10 bàn trải đánh răng Hàn Quốc
+                            </p>
+                            <p class="item-price">9.000đ</p>
+                            <div title="Deal chợp nhoáng"  class="sale__off-container">
+                              <span class="old__price">
+                                48.000đ
+                              </span>
+                              <span className="sale__off-percent"> -80% </span>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-
-
-
-
-
-
-
-
-
-      <div class='body__section'>
-        body
-      </div>
-      <div class='footer__section'>
-        footer
+        <div class="footer__section">footer</div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
